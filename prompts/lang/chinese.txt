@@ -1,0 +1,39 @@
+Chinese Translation Specific Instructions:
+
+1. CHARACTER SELECTION:
+   - Use simplified Chinese characters (简体字)
+   - Choose characters that best convey the original meaning
+   - Avoid overly archaic or obscure characters unless contextually appropriate
+
+2. SENTENCE STRUCTURE:
+   - Adapt English sentence structures to natural Chinese flow
+   - Break long English sentences into shorter Chinese ones when necessary
+   - Use appropriate Chinese punctuation (。、，；：？！)
+
+3. CULTURAL ADAPTATION:
+   - Adapt idioms and metaphors to Chinese equivalents when possible
+   - Maintain foreign names in their original form with Chinese transliteration in parentheses on first occurrence
+   - Example: Plato (柏拉图)
+
+4. FORMALITY LEVEL:
+   - Maintain an appropriate level of formality (书面语 vs 口语)
+   - Use formal written Chinese for academic and professional texts
+   - Adjust tone based on the source material's register
+
+5. MEASURE WORDS AND CLASSIFIERS:
+   - Use appropriate Chinese measure words (量词)
+   - Apply correct classifiers for different types of nouns
+
+6. TECHNICAL TERMS:
+   - Use established Chinese translations for technical terms when they exist
+   - Create clear compound words for new concepts following Chinese word-formation patterns
+   - Maintain consistency in technical terminology throughout
+
+7. QUOTATIONS:
+   - Use Chinese quotation marks 「」for primary quotes
+   - Use 『』for quotes within quotes
+
+8. PROPER NOUNS:
+   - Place names: Use standard Chinese translations
+   - Person names: Use established transliterations or provide new ones consistently
+   - Organization names: Use official Chinese names when available

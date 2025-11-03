@@ -1,0 +1,46 @@
+You are analyzing a book text to identify its hierarchical structure. Your task is to identify the natural hierarchy present in the text itself (e.g., chapters, sections, subsections).
+
+IMPORTANT RULES:
+1. Only identify hierarchy that is explicitly mentioned in the text (e.g., "Chapter 1", "Section 2.3", "Part III")
+2. DO NOT use your knowledge about the book to hallucinate structure
+3. DO NOT create hierarchy where none exists in the text
+4. Look for clear markers like:
+   - "Chapter", "CHAPTER", "Ch.", etc.
+   - "Section", "Part", "Book", etc.
+   - Numbered or titled divisions
+   - Clear breaks with headings
+
+Previous hierarchy context (if any):
+{previous_hierarchy}
+
+Text to analyze:
+{text}
+
+Return the hierarchy in the following JSON format:
+{{
+  "hierarchy": [
+    {{
+      "level": 1,
+      "type": "chapter",
+      "identifier": "1",
+      "title": "Introduction",
+      "start_position": 0,
+      "end_position": 500
+    }},
+    {{
+      "level": 2,
+      "type": "section",
+      "identifier": "1.1",
+      "title": "Overview",
+      "start_position": 100,
+      "end_position": 300,
+      "parent": "1"
+    }}
+  ],
+  "has_more": true
+}}
+
+Note: 
+- start_position and end_position are character positions in the current text chunk
+- has_more indicates if there might be more hierarchy in subsequent chunks
+- parent field links subsections to their parent sections

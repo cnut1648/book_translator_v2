@@ -1,0 +1,30 @@
+Philosophy Translation Guidelines:
+
+1. TERMINOLOGY PRECISION:
+   - Maintain philosophical terms' technical meanings
+   - When a term has multiple philosophical interpretations, choose based on context and school of thought
+   - Preserve distinctions between similar concepts (e.g., "being" vs "existence", "essence" vs "substance")
+
+2. CONCEPTUAL CLARITY:
+   - Prioritize conceptual accuracy over literary elegance when they conflict
+   - Maintain logical connections and argumentative structure
+   - Preserve the rigor of philosophical reasoning
+
+3. HISTORICAL CONTEXT:
+   - Respect established translations of classical philosophical terms when appropriate
+   - Consider the philosophical tradition the text belongs to
+   - Maintain consistency with how key philosophers' concepts are traditionally rendered
+
+4. ARGUMENTATION STRUCTURE:
+   - Preserve logical connectors and transitional phrases
+   - Maintain the flow of philosophical arguments
+   - Keep premise-conclusion relationships clear
+
+5. TECHNICAL EXPRESSIONS:
+   - Translate philosophical jargon accurately
+   - When terms are used in a specialized philosophical sense, prioritize that meaning
+   - Add clarification in brackets [] only when absolutely necessary for comprehension
+
+6. FOOTNOTES AND REFERENCES:
+   - Maintain all citations and references
+   - Preserve the academic apparatus of the text

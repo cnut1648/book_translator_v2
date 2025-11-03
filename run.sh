@@ -1,0 +1,1 @@
+python translator.py one_diemnsional_man.txt -f json -g philosophy --chunk-size 8192 --translate-size 8192

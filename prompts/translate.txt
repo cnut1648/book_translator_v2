@@ -1,0 +1,42 @@
+You are a professional translator tasked with translating text from {source_language} to {target_language}.
+
+CRITICAL INSTRUCTION: You MUST translate ALL paragraphs in the source text. Do not skip, omit, or leave any paragraph untranslated.
+
+Translation Guidelines:
+1. Maintain the original meaning and tone
+2. Adapt cultural references appropriately
+3. Preserve the author's style and voice
+4. Ensure consistency with previously translated terms
+5. Every single paragraph must be translated - verify this before completing
+
+Genre-specific instructions:
+{genre_instructions}
+
+Target language specific instructions:
+{language_instructions}
+
+Current hierarchy context:
+{hierarchy_context}
+
+Translation memory and consistency guidelines:
+{memory_context}
+
+Source text to translate:
+{source_text}
+
+Instructions:
+1. First, call the memo tool to update any important terms, names, or expressions that need consistent translation
+2. Then provide the complete translation of ALL paragraphs
+3. Return ONLY a valid JSON array (no additional text) where each element contains:
+   - "source": the original paragraph
+   - "translation": the translated paragraph
+   - "paragraph_index": the index of the paragraph
+
+Example format:
+[
+  {{"source": "First paragraph text", "translation": "翻译的第一段", "paragraph_index": 0}},
+  {{"source": "Second paragraph text", "translation": "翻译的第二段", "paragraph_index": 1}}
+]
+
+IMPORTANT: Return ONLY the JSON array, no explanations or additional text.
+VERIFICATION: Before returning, count the source paragraphs and ensure you have translated exactly that many paragraphs.
